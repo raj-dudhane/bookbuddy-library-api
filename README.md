@@ -19,8 +19,8 @@ BookBuddy is a RESTful API that allows users to register, log in, and manage the
 3)Lgout user -> POST/logout
 
 *books
-1)add a new book -> POST/books 
-2)view all user books -> GET/books
-3)update a book by ID -> PUT/books/:id
-4)delete a book by ID -> DELETE/books/:id
+1)add a new book -> POST/create
+2)view all user books -> GET/view
+3)update a book by ID -> PUT/update/:id
+4)delete a book by ID -> DELETE/delete/:id
 
